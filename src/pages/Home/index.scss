@@ -1,0 +1,67 @@
+.backgroud{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    left: 0;
+    top: 0;
+    background-color: rgb(255, 255, 255,0);
+}
+
+.card{
+    width: 220px;
+    height: 220px;
+    position:relataive;
+    left: 0;
+    top: 0;
+    display: flex;
+    box-shadow: 0 0 50px rgb(0 0 0/10%);
+    display: flex;
+    transform: translate(50px, 200px);
+    
+    
+}
+
+
+
+.ant-card{
+    background: rgba(255, 255, 255, 0.9) !important;
+}
+
+.input{
+    width: 10px;
+    
+    
+}
+
+.collapses{
+    transform: translate(20px,100px);
+    
+}
+
+
+.ant-collapse-content {
+    color: rgba(255, 255, 255, 1) !important;
+}
+
+.ant-collapse>.ant-collapse-item>.ant-collapse-header{
+    color: rgba(255, 255, 255, 1) !important;
+}
+
+
+.tables{
+    width: 600px ;
+    height: auto ;
+    position:absolute ;
+    margin-top: -20px;
+    margin-left: 500px;
+    display: block;
+}
+
+.selection{
+    width: 120px;
+    height: auto ;
+    position:relative ;
+    top: 200px;
+    left: -30px;
+    // display: block;
+}
